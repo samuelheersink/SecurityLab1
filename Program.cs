@@ -8,7 +8,7 @@ namespace Security_Lab_1
         [STAThread]
         static void Main(string[] args)
         {
-            if (args.Length > 2 || )
+            if (args.Length > 2 || args.Length < 1)
             {
                 Console.WriteLine("Wrong number of aruments, please try again.");
                 return;
