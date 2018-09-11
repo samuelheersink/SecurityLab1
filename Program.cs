@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Security.Cryptography;
-using SystemWindows.Forms;
 
 namespace Security_Lab_1
 {
@@ -14,8 +13,6 @@ namespace Security_Lab_1
                 Console.WriteLine("Wrong number of aruments, please try again.");
                 return;
             }
-
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
 
         }
